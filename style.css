@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+	width: %100vh;
+	height: %100vh;
+	background-color: #c9def2;
+}
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.flex-item{
+	border: 1px solid green;
+	padding: 2em 0em 2em 0em;
+	margin: 3em 0em 3em 0em;
+	background-color: lightgreen;
+}
+
+h1{
+	font-family: monospace;
+}
+
+a{
+	color: green;
+}
+
+@media screen and (min-width: 700px){
+	.flex-container{
+		width: 600px;
+	}
+	body{
+		display:flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+}
